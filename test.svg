@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="76px" preserveAspectRatio="none" style="width:75px;height:76px;background:#FFFFFF;" version="1.1" viewBox="0 0 75 76" width="75px" zoomAndPan="magnify"><defs><filter height="300%" id="f5d5yfyyjpw5d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[1cd95740aea628efd937ee9d93977c80]
+class Toto--><rect codeLine="23" fill="#F0F8FF" filter="url(#f5d5yfyyjpw5d)" height="55.9102" id="Toto" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:1.5;" width="54" x="7" y="7"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="24" x="22" y="21.2402">Toto</text><line style="stroke:#2F4F4F;stroke-width:1.5;" x1="8" x2="60" y1="29" y2="29"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="13" y="43.6348">nom</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="13" y="56.5898">prenom</text><!--MD5=[e9844cb6c01a03973b168f8079474c2e]
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+class Toto {
+    nom
+    prenom
+}
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 CET 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
