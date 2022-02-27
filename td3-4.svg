@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="301px" preserveAspectRatio="none" style="width:155px;height:301px;background:#FFFFFF;" version="1.1" viewBox="0 0 155 301" width="155px" zoomAndPan="magnify"><defs/><g><!--MD5=[9c44bef4398b9b819e757c850646d09b]
+class Salle--><g id="elem_Salle"><rect codeLine="23" fill="#F0F8FF" height="39.9688" id="Salle" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="35" x="7" y="7"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="29" x="10" y="23.1387">Salle</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="8" x2="41" y1="30.9688" y2="30.9688"/><line style="stroke:#2F4F4F;stroke-width:1.0;" x1="8" x2="41" y1="38.9688" y2="38.9688"/></g><!--MD5=[f6edf60997924e693a9a5571eb281b8c]
+class Cours--><g id="elem_Cours"><rect codeLine="27" fill="#F0F8FF" height="53.9375" id="Cours" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="41" x="48" y="124"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="35" x="51" y="140.1387">Cours</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="49" x2="88" y1="147.9688" y2="147.9688"/><line style="stroke:#2F4F4F;stroke-width:1.0;" x1="49" x2="88" y1="155.9688" y2="155.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="4" x="54" y="171.1074"> </text></g><!--MD5=[1d768b7c4a0a7ac0e0fef37c0595e76e]
+class Professeur--><g id="elem_Professeur"><rect codeLine="32" fill="#F0F8FF" height="39.9688" id="Professeur" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="71" x="77" y="7"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="65" x="80" y="23.1387">Professeur</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="78" x2="147" y1="30.9688" y2="30.9688"/><line style="stroke:#2F4F4F;stroke-width:1.0;" x1="78" x2="147" y1="38.9688" y2="38.9688"/></g><!--MD5=[4bd8b81b04cfda6c15492c62d06bccf8]
+class Élève--><g id="elem_Élève"><rect codeLine="36" fill="#F0F8FF" height="39.9688" id="Élève" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="39" x="49" y="255"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="33" x="52" y="271.1387">Élève</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="50" x2="87" y1="278.9688" y2="278.9688"/><line style="stroke:#2F4F4F;stroke-width:1.0;" x1="50" x2="87" y1="286.9688" y2="286.9688"/></g><!--MD5=[89f6f92697880ad000d8d9fe3d724ce6]
+link Salle to Cours--><g id="link_Salle_Cours"><path codeLine="40" d="M31.375,47.062 C38.8193,67.704 50.7419,100.762 59.0609,123.828 " fill="none" id="Salle-Cours" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="49.5" y="90.0669"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="24.1836" y="66.9038">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="52.4156" y="112.8996"> </text></g><!--MD5=[f8bf9e248f195f386a6196623c11c08e]
+link Professeur to Cours--><g id="link_Professeur_Cours"><path codeLine="42" d="M105.625,47.062 C98.1807,67.704 86.2581,100.762 77.9391,123.828 " fill="none" id="Professeur-Cours" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="94.5" y="90.0669"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="94.5664" y="66.9038">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="75.6594" y="112.8996"> </text></g><!--MD5=[665c66d285eb8e0abd7599ab29ee16e9]
+link Cours to Élève--><g id="link_Cours_Élève"><path codeLine="44" d="M68.5,178.172 C68.5,201.1369 68.5,234.0059 68.5,254.6645 " fill="none" id="Cours-Élève" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="69.5" y="221.0669"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="64.0625" y="197.8448"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="60.5156" y="243.9257">*</text></g><!--MD5=[a16c5e720ca5d2d1fad29525e220e05a]
+@startuml
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+Class Salle {
+	- -
+}
+
+Class Cours {
+	- -
+
+}
+
+Class Professeur {
+	- -
+}
+
+Class Élève {
+	- -
+}
+
+Salle - - Cours : "1" " " 
+
+Professeur - - Cours : "1" " "
+
+Cours - - Élève :  " " "*"
+@enduml
+
+PlantUML version 1.2022.2beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

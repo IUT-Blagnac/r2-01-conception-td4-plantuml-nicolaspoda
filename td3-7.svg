@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="425px" preserveAspectRatio="none" style="width:125px;height:425px;background:#FFFFFF;" version="1.1" viewBox="0 0 125 425" width="125px" zoomAndPan="magnify"><defs/><g><!--MD5=[bf58119220ea8b8f6cdc68332b464ad6]
+class Roues--><g id="elem_Roues"><rect codeLine="28" fill="#F0F8FF" height="23.9688" id="Roues" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="43" x="17" y="7"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="37" x="20" y="23.1387">Roues</text></g><!--MD5=[1d3308a050e4b472ad871965582028ae]
+class Voiture--><g id="elem_Voiture"><rect codeLine="32" fill="#F0F8FF" height="109.8125" id="Voiture" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="58" x="9.5" y="209"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="43" x="17" y="225.1387">Voiture</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="10.5" x2="66.5" y1="232.9688" y2="232.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="45" x="15.5" y="248.1074">couleur</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="46" x="15.5" y="262.0762">modele</text><line style="stroke:#2F4F4F;stroke-width:1.0;" x1="10.5" x2="66.5" y1="268.9063" y2="268.9063"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="37" x="15.5" y="284.0449">start()</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="29" x="15.5" y="298.0137">run()</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="37" x="15.5" y="311.9824">stop()</text></g><!--MD5=[fd1c056ef48d44efd1d7aae642aab92f]
+class Moteur--><g id="elem_Moteur"><rect codeLine="41" fill="#F0F8FF" height="23.9688" id="Moteur" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="48" x="52.5" y="108"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="42" x="55.5" y="124.1387">Moteur</text></g><!--MD5=[83e31641c01fbd665b2e2da2de85beac]
+class Chauffeur--><g id="elem_Chauffeur"><rect codeLine="45" fill="#F0F8FF" height="23.9688" id="Chauffeur" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="63" x="7" y="396"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="57" x="10" y="412.1387">Chauffeur</text></g><!--MD5=[4ca5f9444ae06f0d10a8b72ea2cca25e]
+link Voiture to Chauffeur--><g id="link_Voiture_Chauffeur"><path codeLine="49" d="M38.5,319.089 C38.5,347.305 38.5,379.3041 38.5,395.8168 " fill="none" id="Voiture-Chauffeur" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="39.5" y="362.0669">Conduire</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="14.0984" y="338.8034">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="9.55" y="384.7982">0..1</text></g><!--MD5=[559f692801ce20d12074a8d925b5332a]
+link Roues to Moteur--><g id="link_Roues_Moteur"><path codeLine="51" d="M42.8591,31.357 C50.1892,50.453 64.896,88.768 72.1918,107.776 " fill="none" id="Roues-Moteur" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="60.5" y="74.0669">controler</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="15.946" y="51.0257">2..4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="60.7647" y="96.7406">1</text></g><!--MD5=[604314b8b52849364650bc187b50f539]
+link Roues to Voiture--><g id="link_Roues_Voiture"><path codeLine="53" d="M36.3337,31.055 C33.1986,47.675 27.548,80.122 25.5,108 C23.3831,136.815 25.3064,168.618 28.2626,195.879 " fill="none" id="Roues-to-Voiture" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="29.7836,208.864,33.0582,202.4393,28.3871,196.9455,25.1125,203.3703,29.7836,208.864" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="26.5" y="124.5669">4</text></g><!--MD5=[a659685cc68d4139b14f91877e122da8]
+link Moteur to Voiture--><g id="link_Moteur_Voiture"><path codeLine="55" d="M73.5182,132.143 C69.7636,146.173 63.0047,171.43 56.4195,196.038 " fill="none" id="Moteur-to-Voiture" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="53.0085,208.784,58.4234,204.0217,56.1101,197.1917,50.6952,201.954,53.0085,208.784" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="65.5" y="175.0669">1</text></g><!--MD5=[2bd989c58da08f19ebb133b622671762]
+@startuml
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+		 
+
+
+
+
+Class Roues {
+
+}
+
+Class Voiture {
+	couleur
+	modele
+	- -
+	start()
+	run()
+	stop()
+}
+
+Class Moteur {
+
+}
+
+Class Chauffeur {
+
+}
+
+Voiture - - Chauffeur : "0..*" Conduire "0..1"
+
+Roues - - Moteur : "2..4" controler "1"
+
+Roues - -* Voiture : 4
+
+Moteur - -* Voiture : 1
+@enduml
+
+PlantUML version 1.2022.2beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

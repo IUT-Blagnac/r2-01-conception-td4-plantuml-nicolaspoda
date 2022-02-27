@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="310px" preserveAspectRatio="none" style="width:138px;height:310px;background:#FFFFFF;" version="1.1" viewBox="0 0 138 310" width="138px" zoomAndPan="magnify"><defs/><g><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><g id="elem_Customer"><rect codeLine="23" fill="#F0F8FF" height="95.8438" id="Customer" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="124" x="7" y="7"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="58" x="40" y="23.1387">Customer</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="8" x2="130" y1="30.9688" y2="30.9688"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="107" x="13" y="46.1074">+forname : String</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="109" x="13" y="60.0762">+surname : String</text><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="112" x="13" y="74.0449">-password : String</text><line style="stroke:#2F4F4F;stroke-width:0.5;" x1="8" x2="130" y1="80.875" y2="80.875"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="99" x="13" y="96.0137">login(user,pass)</text></g><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><g id="elem_Order"><rect codeLine="31" fill="#F0F8FF" height="23.9688" id="Order" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="42" x="48" y="180"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="36" x="51" y="196.1387">Order</text></g><!--MD5=[24e7354b14fe45153051fb5e63b1cd34]
+class LineItem--><g id="elem_LineItem"><rect codeLine="35" fill="#F0F8FF" height="23.9688" id="LineItem" rx="2.5" ry="2.5" style="stroke:#2F4F4F;stroke-width:0.5;" width="56" x="41" y="281"/><text fill="#000000" font-family="Helvetica" font-size="12" lengthAdjust="spacing" textLength="50" x="44" y="297.1387">LineItem</text></g><!--MD5=[135794f54b59c9e5883929d048383f81]
+link Customer to Order--><g id="link_Customer_Order"><path codeLine="39" d="M69,103.216 C69,128.161 69,157.179 69,174.81 " fill="none" id="Customer-to-Order" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="69,179.899,73,170.899,69,174.899,65,170.899,69,179.899" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="70" y="146.0669">orders</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="60.5563" y="168.9143">*</text></g><!--MD5=[bb7896cd95a18301bc8f089d30a057b9]
+link Order to LineItem--><g id="link_Order_LineItem"><path codeLine="41" d="M69,204.357 C69,221.8868 69,255.6117 69,275.7298 " fill="none" id="Order-to-LineItem" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="69,280.7759,73,271.7759,69,275.7759,65,271.7759,69,280.7759" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="70" y="247.0669"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="64.2375" y="224.0257"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="41.2563" y="269.7404">0..*</text></g><!--MD5=[08f19fb1e771cbd178875090e41fcf2a]
+@startuml
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+class Customer {
+	+forname : String
+	+surname : String
+	-password : String
+	login(user,pass) 
+		
+	}
+
+Class Order {
+
+}
+
+Class LineItem {
+
+}
+
+Customer - -> Order : orders"*"
+
+Order - -> LineItem : " " "0..*"
+@enduml
+
+PlantUML version 1.2022.2beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
