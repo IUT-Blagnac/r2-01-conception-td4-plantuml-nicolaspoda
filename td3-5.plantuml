@@ -1,0 +1,93 @@
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+Class TourOperator {
+	+idTO
+	+nomTO
+	+adresseTO
+	--
+}
+
+Class Voyages {
+	+idVoyage
+	+libelleVoy
+	+destination
+	+depart
+	+dateDepart
+	+dateArrivee
+	+prixBase
+	--
+}
+
+Class Options {
+	+idOption
+	+libelleOption
+	--
+}
+
+
+Class Clients {
+	+idClient
+	+nomClient
+	+adresseClient
+	+telClient
+	--
+}
+
+Class Commandes {
+	+idCde
+	+dateCde
+	+etatCde
+	--
+}
+
+Class Voyageurs {
+	+idVoyageur
+	+nomVoyageur
+	+prenomVoyageur
+	+sexeVoy
+	+dateNaissanceVoy
+	--
+}
+
+
+
+TourOperator -- Voyages : "1" Proposer "1..*"
+
+Clients -- Commandes : "1" Passer "1..*"
+
+Commandes -- Voyageurs : "1..*" Concerner "1..*"
+
+Voyages -- Commandes : "1" Commander "1..*"
+
+ Voyages "*" - "*" Options 
+ (Voyages, Options) .. PayerOption
+
+ Class PayerOption {
+	 +montant
+	 --
+ }
+
+
+@enduml

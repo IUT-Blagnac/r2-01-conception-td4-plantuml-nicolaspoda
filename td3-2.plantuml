@@ -1,0 +1,36 @@
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+Class Personne {
+	-nom : String
+	-prénom : String
+}
+
+Personne -- Personne : "2 -parents"peuvent avoir > "1..n -enfants" 
+
+
+
+
+
+@enduml

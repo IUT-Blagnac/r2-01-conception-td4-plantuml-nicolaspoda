@@ -1,0 +1,62 @@
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+		 
+
+
+
+
+Class Roues {
+
+}
+
+Class Voiture {
+	couleur
+	modele
+	--
+	start()
+	run()
+	stop()
+}
+
+Class Moteur {
+
+}
+
+Class Chauffeur {
+
+}
+
+Voiture -- Chauffeur : "0..*" Conduire "0..1"
+
+Roues -- Moteur : "2..4" controler "1"
+
+Roues --* Voiture : 4
+
+Moteur --* Voiture : 1
+ 
+ 
+
+
+@enduml

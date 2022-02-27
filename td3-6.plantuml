@@ -1,0 +1,63 @@
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+		 
+Class Graphe {
+
+--
+
+--
+	
+}
+
+Class Arc {
+	
+	--
+	
+	--
+
+}
+
+Class Sommet {
+	
+	--
+
+	--
+			
+}
+
+
+Sommet <--> Arc : "1" source "*"
+
+Sommet <--> Arc : "1" destination "*"
+
+Graphe "1" *--> "*" Sommet 
+
+Graphe "1" *--> "*" Arc
+
+ 
+ 
+
+
+@enduml

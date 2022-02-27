@@ -1,0 +1,48 @@
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+Class Salle {
+	--
+}
+
+Class Cours {
+	--
+
+}
+
+Class Professeur {
+	--
+}
+
+Class Élève {
+	--
+}
+
+Salle -- Cours : "1" " " 
+
+Professeur -- Cours : "1" " "
+
+Cours -- Élève :  " " "*"
+
+@enduml
